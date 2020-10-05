@@ -11,6 +11,7 @@ protocol AllowedSpanAttributeValue {}
 /// Implemented by types allowed to represent span `metrics.*` value in JSON.
 protocol AllowedSpanMetricValue {}
 /// Implemented by types allowed to represent span `meta.*` value in JSON.
+/// Test
 protocol AllowedSpanMetaValue {}
 
 // All JSON-convertible values are allowed for `span.*`.
